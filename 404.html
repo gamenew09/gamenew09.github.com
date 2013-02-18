@@ -1,21 +1,9 @@
-<?php
-  function randomWord($firstwordcap){
-    $words = array("found", "freak", "404", "missing", "not");
-    $word = $words[rand(count($words))];
-    if($firstwordcap){
-      $word = ucwords($word);
-    }
-    return $word;
-  }
-?>
-$sword = randomWord(false);
-$csword = ucwords($sword);
 <html>
     <head>
-      <title>What the <?php echo $csword ?>!</title>
+      <title>What the Found! 404 Error</title>
     </head>
     <body>
-      What the <?php echo $sword ?>! 404 Error!
+      What the found! 404 Error!
       <a href="gamenew09.github.com">Back to home!</a>
     </body>
 </html>
